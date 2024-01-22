@@ -1616,227 +1616,232 @@ In your ``5-styles.css file``,
 
 Using the files from the previous task for this task:
 
-in 6-styles.css, inside the /* Navbarsection
+in ``6-styles.css``, inside the ``/* Navbarsection``
 
-In the nav class selector
-Property: display, Value: flex
-Inside the .nav .nav-item selector, remove the display declaration
-Target .nav-item + .nav-item inside nav class
-Move the margin declaration from .nav .nav-item inside the new selector.
-In the variables section
-Change the value of the variable nav-item-margin to be 0 0 0 2rem
-Repo:
+- In the ``nav`` class selector
+	- Property: ``display``, Value: ``flex``
+- Inside the ``.nav .nav-item selector``, remove the display declaration
+- Target ``.nav-item + .nav-item`` inside nav class
+	- Move the margin declaration from ``.nav .nav-item`` inside the new selector.
+- In the ``variables`` section
+	- Change the value of the variable ``nav-item-margin`` to be ``0 0 0 2rem``
+### Repo:
 
-GitHub repository: alx-frontend-for-fun
-Directory: flexbox
-File: 6-index.html, 6-styles.css
+- GitHub repository: alx-frontend-for-fun
+- Directory: flexbox
+- File: 6-index.html, 6-styles.css
   
-7. Align center logo and navbar
-#advanced
+## Task 7. Align center logo and navbar
+
 Using the files from the previous task for this task:
 
-In 7-styles.css, inside the /* Header section, in the header-container class selector, set the property align-items to center
+In ``7-styles.css``, inside the ``/* Header`` section, in the ``header-container`` class selector, set the property align-items to center
 
-Repo:
+### Repo:
 
-GitHub repository: alx-frontend-for-fun
-Directory: flexbox
-File: 7-index.html, 7-styles.css
+- GitHub repository: alx-frontend-for-fun
+- Directory: flexbox
+- File: 7-index.html, 7-styles.css
   
-8. Simplify the hero banner
-#advanced
+## Task 8. Simplify the hero banner
+
 Using the files from the previous task for this task:
 
-In 8-styles.cssInside the /* Section HERO section
+In ``8-styles.css`` Inside the ``/* Section HERO`` section
 
-In the selector targeting section-inner class in section-hero class, remove the padding and replace with
-Property: display, Value: flex
-Property: flex-direction, Value: column
-Property: align-items, Value: flex-start
-Property: justify-content, Value: center
-Property: min-height, Value: 50vh
-Repo:
+- In the selector targeting ``section-inner`` class in ``section-hero`` class, remove the padding and replace with
+	- Property: ``display``, Value: ``flex``
+	- Property: ``flex-direction``, Value: ``column``
+	- Property: ``align-items``, Value: ``flex-start``
+	- Property: ``justify-content``, Value: ``center``
+	- Property: ``min-height``, Value: ``50vh``
+### Repo:
 
-GitHub repository: alx-frontend-for-fun
-Directory: flexbox
-File: 8-index.html, 8-styles.css
+- GitHub repository: alx-frontend-for-fun
+- Directory: flexbox
+- File: 8-index.html, 8-styles.css
   
-9. Better alignment about us
-#advanced
+## Task 9. Better alignment about us
+
 Using the files from the previous task for this task:
 
-In 9-styles.css, after the /* Section SERVICES section, create a /* Section ABOUT US section. Inside that new section, target all classes that begin with col- inside section-about-us class
+In ``9-styles.css``, after the ``/* Section SERVICES`` section, create a ``/* Section ABOUT US`` section. Inside that new section, target all classes that begin with ``col-`` inside ``section-about-us`` class
 
-Property: align-self, Value: center
-Repo:
+- Property: ``align-self``, Value: ``center``
+### Repo:
 
-GitHub repository: alx-frontend-for-fun
-Directory: flexbox
-File: 9-index.html, 9-styles.css
+- GitHub repository: alx-frontend-for-fun
+- Directory: flexbox
+- File: 9-index.html, 9-styles.css
   
-10. Creating an article by fixing issues and updating hero styles
-#advanced
+## Task 10. Creating an article by fixing issues and updating hero styles
+
 Using the CSS file from the previous task and article.html (provided above in the project description) for this task:
 
-In 10-styles.css, inside the /* Section HERO section
+In ``10-styles.css``, inside the ``/* Section HERO`` section
 
-After the .section-hero, add a new hero-homepage class selector (you will need to add that class later in your html files)
+After the ``.section-hero``, add a new ``hero-homepage`` class selector (you will need to add that class later in your html files)
 
-Move all declarations inside section-hero inside the new hero-homepage class selector
+Move all declarations inside ``section-hero`` inside the new ``hero-homepage`` class selector
 
-Inside section-hero class selector
+Inside ``section-hero`` class selector
 
-Property: position, Value: relative
-Property: margin-top, Value: -8.5rem
-Below, target .section-body inside section-hero class
+- Property: ``position``, Value: ``relative``
+- Property: ``margin-top``, Value: ``-8.5rem``
+Below, target ``.section-body`` inside ``section-hero`` class
 
-Property: padding, Value: 10rem 4rem
-Below, target .section-category inside section-hero class
+- Property: ``padding``, Value: ``10rem 4rem``
+Below, target ``.section-category`` inside ``section-hero`` class
 
-Property: color, Value: point to the variable color-white
-Property: text-transform, Value: uppercase
-Repo:
+- Property: ``color``, Value: point to the variable ``color-white``
+Property: ``text-transform``, Value: ``uppercase``
+### Repo:
 
-GitHub repository: alx-frontend-for-fun
-Directory: flexbox
-File: 10-article.html, 10-styles.css
+- GitHub repository: alx-frontend-for-fun
+- Directory: flexbox
+- File: 10-article.html, 10-styles.css
   
-11. Update the new hero banner
-#advanced
-In 11-article.html in the Hero section
+## Task 11. Update the new hero banner
 
-Add the hero-article class on the <header> which is in <main>
-Add this background-image (pic-article-02.jpg) as an inline style still on the <header>
-Inside the section with section-inner class
-Add a span with the class section-category and the text Digital Life
-Below, add an h1 with the class section-title and the following text Ut alios omittam, hunc appello, quem ille unum secutus est
-At the end of 11-styles.css, create a new comment section
+In ``11-article.html`` in the Hero section
 
+- Add the ``hero-article`` class on the ``<header>`` which is in ``<main>``
+- Add this ``background-image`` (pic-article-02.jpg) as an inline style still on the ``<header>``
+- Inside the section with ``section-inner`` class
+	- Add a ``span`` with the class ``section-category`` and the text ``Digital Life``
+	- Below, add an ``h1`` with the class ``section-title`` and the following text ``Ut alios omittam, hunc appello, quem ille unum secutus est``
+At the end of ``11-styles.css``, create a new comment section
+
+```css
 /*** ARTICLE PAGE ***/
 /* Section HERO (article)
     ============================= */
-Target the hero-article class
+```
+Target the ``hero-article`` class
 
-Property: background-size, Value: 150rem 100rem
-Property: background-position, Value: 50% 0
-Target the before pseudo element of hero-article class
+- Property: ``background-size``, Value: ``150rem 100rem``
+- Property: ``background-position``, Value: ``50% 0``
+Target the ``before`` pseudo element of hero-article class
 
-Property: content, Value: empty
-Property: background, Value: rgba(0, 0, 0, 0.8)
-Property: position, Value: absolute
-Property: top, Value: 0
-Property: right, Value: 0
-Property: left, Value: 0
-Property: bottom, Value: 0
-Property: z-index, Value: 0
-Target the section-inner class inside the hero-article class
+- Property: ``content``, Value: ``empty``
+- Property: ``background``, Value: ``rgba(0, 0, 0, 0.8)``
+- Property: ``position``, Value: ``absolute``
+- Property: ``top``, Value: ``0``
+- Property: ``right``, Value: ``0``
+- Property: ``left``, Value: ``0``
+- Property: ``bottom``, Value: ``0``
+- Property: ``z-index``, Value: ``0``
+Target the ``section-inner`` class inside the ``hero-article`` class
 
-Property: text-align, Value: center
-Property: align-items, Value: center
-Property: min-height, Value: 40vh
-Target the section-body class inside the hero-article class
+- Property: ``text-align``, Value: ``center``
+- Property: ``align-items``, Value: ``center``
+- Property: ``min-height``, Value: ``40vh``
+Target the ``section-body`` class inside the ``hero-article`` class
 
-Property: position, Value: relative
-Property: padding, Value: 7rem 0 0
-Property: z-index, Value: 2
-Repo:
+- Property: ``position``, Value: ``relative``
+- Property: ``padding``, Value: ``7rem 0 0``
+- Property: ``z-index``, Value: ``2``
+### Repo:
 
-GitHub repository: alx-frontend-for-fun
-Directory: flexbox
-File: 11-article.html, 11-styles.css
+- GitHub repository: alx-frontend-for-fun
+- Directory: flexbox
+- File: 11-article.html, 11-styles.css
   
-12. The structure of the main article
-#advanced
-In your 12-article.html file, in the Hero section
+## Task 12. The structure of the main article
 
-After the header, create a <div>and set its class to main-article (this div will be siblings with the Hero section header)
-Create a div inside the main-article div and set the class to container
-Create a div with the class post inside the container div
-Inside the post div:
-Create a new article with the class post-content
-Below the post-content article, add the comment <!-- Aside section -->
-Sibling to the post-content article and after the comment, create an aside with the class post-aside
-Inside post-aside aside, create 2 divs:
-The first with the class post-meta
-The second with the class post-share
-In your 12-styles.css:
+In your ``12-article.html`` file, in the Hero section
 
-Target the main-article class
+- After the header, create a ``<div>`` and set its class to ``main-article`` (this div will be siblings with the Hero section header)
+- Create a ``div`` inside the ``main-article`` div and set the class to ``container``
+- Create a ``div`` with the class ``post`` inside the container div
+- Inside the ``post`` div:
+	- Create a new ``article`` with the class ``post-content``
+	- Below the ``post-content`` article, add the comment ``<!-- Aside section -->``
+	- Sibling to the ``post-content`` article and after the comment, create an aside with the class post-aside
+	- Inside ``post-aside`` aside, create 2 divs:
+		- The first with the class ``post-meta``
+		- The second with the class ``post-share``
+In your ``12-styles.css``:
 
-Property: padding, Value: 5rem 0
-Add the below separator comment
+- Target the ``main-article`` class
 
+	- Property: ``padding``, Value: ``5rem 0``
+- Add the below separator comment
+```css
 /* Post
     ============================= */
-Target the post class
-Property: display, Value: flex
-Target the post-content class
-Property: width, Value: 100%
-Target the post-aside class
-Property: order, Value: -1
-Property: min-width, Value: 20%
-Repo:
+```
+- Target the ``post`` class
+	- Property: ``display``, Value: ``flex``
+- Target the ``post-content`` class
+	- Property: ``width``, Value: ``100%``
+- Target the ``post-aside`` class
+	- Property: ``order``, Value: ``-1``
+	- Property: ``min-width``, Value: ``20%``
+### Repo:
 
-GitHub repository: alx-frontend-for-fun
-Directory: flexbox
-File: 12-article.html, 12-styles.css
+- GitHub repository: alx-frontend-for-fun
+- Directory: flexbox
+- File: 12-article.html, 12-styles.css
   
-13. The meta list inside the aside section
-#advanced
-In your 13-article.html
+## Task 13. The meta list inside the aside section
 
-Create an unordered list inside the post-meta div with the classes post-meta-list and row
-Create a first <li> with the class post-meta-author
-Create the HTML tag that show a stronger importance
-Text: Written by:
-Create a link
-Href: #
-Rel: author
-Text: William Attaway
-Create a second <li> with the class post-meta-date
-Create the HTML tag that show a stronger importance
-Text: Posted on:
-Use the HTML tag for date / time - Datetime: 2019-10 - Text: October 2019
-Create a third <li> with the class post-meta-tag
-Create the HTML tag that show a stronger importance
-Text: Tags:
-Create an unordered list with the class tag-list
-First <li> contain a link
-Href: #
-Rel: tag
-Text: Web Design
-Second <li> contain a link
-Href: #
-Rel: tag
-Text: UX
-Update 13-styles.css with this information
+In your ``13-article.html``
+
+- Create an unordered list inside the ``post-meta div`` with the classes ``post-meta-list`` and row
+	- Create a first ``<li>`` with the class ``post-meta-author``
+		- Create the HTML tag that show a stronger importance
+			- Text: ``Written by``:
+	- Create a link
+		- Href: ``#``
+		- Rel: ``author``
+		- Text: ``William Attaway``
+	- Create a second ``<li>`` with the class ``post-meta-date``
+		- Create the HTML tag that show a stronger importance
+			- Text: ``Posted on``:
+		- Use the HTML tag for date / time - Datetime: 2019-10 - Text: October 2019
+	- Create a third ``<li>`` with the class ``post-meta-tag``
+		- Create the HTML tag that show a stronger importance
+			- Text: ``Tags``:
+		- Create an unordered list with the class tag-list
+			- First ``<li>`` contain a link
+				- Href: ``#``
+				- Rel: ``tag``
+				- Text: ``Web Design``
+			- Second ``<li>`` contain a link
+				- Href: ``#``
+				- Rel: ``tag``
+				- Text: ``UX``
+Update ``13-styles.css`` with this information
 
 Add a separator comment
-
+```css
 /* Post Meta
     ============================= */
-Target the post-meta-list class
+```
+Target the ``post-meta-list`` class
 
-Property: flex-direction, Value: column
+- Property: ``flex-direction``, Value: ``column``
 Target the strong tag inside post-meta-list class
 
-Property: color, Value: point to the variable color-primary
-Property: font-size, Value: point to the variable font-size-small
-Property: text-transform, Value: uppercase
-Property: display, Value: block
+- Property: color, Value: point to the variable color-primary
+- Property: font-size, Value: point to the variable font-size-small
+- Property: text-transform, Value: uppercase
+- Property: display, Value: block
 Target all classes that start with post-meta- inside post-meta-list class
 
-Property: margin-bottom, Value: 1rem
-Property: padding-bottom, Value: 1rem
-Property: border-bottom, Values: 0.2rem solid and point to the color-light-grey variable
+- Property: margin-bottom, Value: 1rem
+- Property: padding-bottom, Value: 1rem
+- Property: border-bottom, Values: 0.2rem solid and point to the color-light-grey variable
 Target the last child of all classes that start with post-meta inside post-meta-list class
 
-Property: border, Value: none
-Property: margin-bottom, Value: 3rem
+- Property: border, Value: none
+- Property: margin-bottom, Value: 3rem
 Add a separator comment
-
+```css
 /* Tag list
     ============================= */
+```
 Target the tag-list class
 
 Property: padding, Value: 0
